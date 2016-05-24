@@ -1,0 +1,26 @@
+{
+  "name": "incrementjs",
+  "version": "1.0.0",
+  "description": "Global Module to increment NodeJS Modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "increment"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergiofilhowz/incrementjs.git"
+  },
+  "author": "Sérgio Marcelino <sergiofilhow@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.13.1"
+  },
+  "bin": {
+    "increment": "./index.js"
+  },
+  "main" : "./index.js",
+  "preferGlobal": "true"
+}
